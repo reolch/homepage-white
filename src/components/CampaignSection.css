@@ -1,0 +1,113 @@
+/* 基本のスタイル */
+.campaign-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.campaign-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.campaign-description {
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+    line-height: 1.4;
+}
+
+.campaign-benefits {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+    font-size: 1.1rem;
+}
+
+.campaign-benefits li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 金額表示 */
+.campaign-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 24px;
+}
+
+/* ボタン */
+.btn-primary {
+    background-color: #ffffff;
+    color: #ff5733;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #f0f0f0;
+    color: #c70039;
+}
+
+/* レスポンシブデザイン */
+@media (min-width: 600px) {
+    .campaign-title {
+        font-size: 1.5rem;
+    }
+
+    .campaign-description {
+        font-size: 1rem;
+    }
+
+    .campaign-benefits {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        font-size: 1.2rem;
+    }
+
+    .campaign-price {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .campaign-section {
+        padding: 40px;
+    }
+
+    .campaign-title {
+        font-size: 2rem;
+    }
+
+    .campaign-description {
+        font-size: 1.2rem;
+    }
+
+    .campaign-benefits {
+        font-size: 1.3rem;
+    }
+
+    .btn-primary {
+        padding: 15px 30px;
+        font-size: 1.3rem;
+    }
+
+    .campaign-price {
+        font-size: 3rem;
+    }
+}
