@@ -6,6 +6,8 @@ import AboutSection from './components/AboutSection';
 import CampaignSection from './components/CampaignSection';
 import InstagramSection from './components/InstagramSection';
 import ServicesSection from './components/ServiceSection';
+import TrainingSection from './components/TrainingSection';
+import EsteSection from './components/EsteSection,';
 
 const App = () => {
   return (
@@ -14,7 +16,8 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <CampaignSection />
-      <InstagramSection />
+      <TrainingSection />
+      <EsteSection />
       <ServicesSection />
     </div>
   );
